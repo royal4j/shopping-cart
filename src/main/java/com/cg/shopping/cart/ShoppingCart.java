@@ -20,7 +20,7 @@ public class ShoppingCart {
 
     public void addProduct(Product product) {
         if(promotion != null){
-            promotion.applyPromotion(product);//apply offer
+            promotion.applyPromotion(product);
         }
         productList.add(product);
     }
